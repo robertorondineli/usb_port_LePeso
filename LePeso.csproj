@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <!-- Adicione essas linhas para adicionar manualmente os atributos de assembly -->
+    <AssemblyTitle>LePeso</AssemblyTitle>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
+    <AssemblyCompany></AssemblyCompany>
+    <AssemblyConfiguration></AssemblyConfiguration>
+    <AssemblyProduct>LePeso</AssemblyProduct>
+    <AssemblyCopyright></AssemblyCopyright>
+    <AssemblyTrademark></AssemblyTrademark>
+    <AssemblyInformationalVersion></AssemblyInformationalVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
